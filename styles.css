@@ -196,6 +196,29 @@ footer{padding:62px 0;background:#10171e;color:#bfc3c1}
 .footer-heading{margin:0 0 9px;color:#f6f3ed;font-size:14px;font-weight:700}
 .light{color:#f6f3ed}
 .light span{color:#c98961}
+
+.footer-credit{
+  grid-column:1/-1;
+  margin:8px 0 0;
+  padding-top:18px;
+  border-top:1px solid var(--line-dark);
+  text-align:center;
+  color:#858c8b;
+  font-size:13px;
+  line-height:1.5;
+}
+.footer-credit a{
+  margin:0;
+  color:#aeb4b2;
+  text-decoration:none;
+}
+.footer-credit a:hover,
+.footer-credit a:focus-visible{
+  color:var(--copper-on-dark);
+  text-decoration:underline;
+  text-underline-offset:4px;
+}
+
 :focus-visible{outline:3px solid #b76839;outline-offset:4px}
 
 .privacy{max-width:800px}
